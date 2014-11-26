@@ -8,7 +8,7 @@
         "masterexploder/phpthumb": ">=2.0",
         "silexlabs/amfphp": "dev-master"
     },
-    "homepage": "http://berlowscy.pl",
+    "homepage": "https://github.com/piotrberlowski/EasyGallery",
     "authors": [
         {
             "name": "Piotr Berlowski",
