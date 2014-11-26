@@ -1,0 +1,23 @@
+{
+    "name": "piotrberlowski/easygallery",
+    "type": "library",
+    "license": "MIT",
+    "description": "A gallery with Flex frame for images to obstruct downloading pictures.",
+    "require": {
+        "php": ">=5.3.0",
+        "masterexploder/phpthumb": ">=2.0",
+        "silexlabs/amfphp": "dev-master"
+    },
+    "homepage": "http://berlowscy.pl",
+    "authors": [
+        {
+            "name": "Piotr Berlowski",
+            "email": "piotr.berlowski@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "EasyGallery": "src"
+        }
+    }
+}

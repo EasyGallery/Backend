@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009"
+			   xmlns:s="library://ns.adobe.com/flex/spark"
+			   backgroundColor="0"
+			   xmlns:mx="library://ns.adobe.com/flex/mx"
+			   percentHeight="100"
+			   percentWidth="100"
+			   xmlns:local="*"
+			   xmlns:ui="com.pberlowski.ui.*"
+			   xmlns:amfphp="amfphp.*">
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+
+
+	<s:Scroller id="scroller"
+				percentWidth="100"
+				percentHeight="100">
+
+		<s:Group clipAndEnableScrolling="true"
+				 horizontalScrollPosition="50"
+				 verticalScrollPosition="50">
+			<s:layout>
+				<s:VerticalLayout verticalAlign="middle"
+								  horizontalAlign="center">
+				</s:VerticalLayout>
+			</s:layout>
+			<ui:RemoteImage />
+		</s:Group>
+	</s:Scroller>
+</s:Application>
