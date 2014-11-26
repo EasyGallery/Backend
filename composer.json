@@ -17,7 +17,7 @@
     ],
     "autoload": {
         "psr-0": {
-            "EasyGallery": "src"
+            "EasyGallery": "EasyGallery_Backend"
         }
     }
 }
