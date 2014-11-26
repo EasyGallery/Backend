@@ -8,7 +8,7 @@
         "masterexploder/phpthumb": ">=2.0",
         "silexlabs/amfphp": "dev-master"
     },
-    "homepage": "https://github.com/piotrberlowski/EasyGallery",
+    "homepage": "https://github.com/EasyGallery/Backend",
     "authors": [
         {
             "name": "Piotr Berlowski",
@@ -17,7 +17,7 @@
     ],
     "autoload": {
         "psr-0": {
-            "EasyGallery": "EasyGallery_Backend"
+            "EasyGallery": "src"
         }
     }
 }

@@ -1,4 +1,4 @@
 EasyGallery
 ==========
 
-A gallery engine with images shown using AMF service and a Flash frame to prevent download.
+A gallery engine backend with AMF service to deliver images to Flex frame and a thumbnails factory;
